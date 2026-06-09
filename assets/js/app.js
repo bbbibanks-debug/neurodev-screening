@@ -8,8 +8,8 @@ async function iniciar(){
 
 const resposta =
 await fetch(
-"data/catalog.json"
-);
+`data/transtornos/${id}.json`
+)
 
 const catalogo =
 await resposta.json();
